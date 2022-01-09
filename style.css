@@ -3,9 +3,9 @@
 }
 
 body {
-    background: #2d2013;
+    background: #3b3b3a;
     color: #fff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
 }
 
@@ -70,8 +70,8 @@ input[type="text"] {
 .meal img {
     width: 100%;
     height: 100%;
-    border: 4px #fff solid;
-    border-radius: 2px;
+    border: transparent;
+    border-radius: 20px;
 }
 
 .meal-info {
@@ -86,6 +86,7 @@ input[type="text"] {
     justify-content: center;
     transition: opacity 0.2s ease-in;
     opacity: 0;
+    border-radius: 20px;
 }
 
 .meal:hover .meal-info {
@@ -98,16 +99,16 @@ input[type="text"] {
 }
 
 .single-meal img {
-    width: 300px;
+    width: 350px;
     margin: 15px;
-    border: 4px #fff solid;
-    border-radius: 2px;
+    border: transparent;
+    border-radius: 20px;
 }
 
 .single-meal-info {
     margin: 20px;
     padding: 10px;
-    border: 2px #e09850 dashed;
+    border: 2px #f3dec8 dashed;
     border-radius: 5px;
 }
 

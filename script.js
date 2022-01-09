@@ -97,7 +97,8 @@ function addMealToDOM(meal) {
     }
   }
 
-  single_mealEl.innerHTML = `
+        
+        single_mealEl.innerHTML = `<hr style="border: 2px solid gray; width: 100%; margin-top:20px;">
   <div class="single-meal">
   <h1>${meal.strMeal}</h1>
   <img src="${meal.strMealThumb}" alt="${meal.strMeal}"/>
@@ -123,6 +124,7 @@ random.addEventListener('click',randomMeal);
 mealsEl.addEventListener("click", (e) => {
   const mealInfo = e.path.find((item) => {
     if (item.classList) {
+        
       return item.classList.contains("meal-info");
     } else {
       return false;
